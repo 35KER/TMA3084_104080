@@ -36,9 +36,8 @@ class MenuScreen extends StatelessWidget {
       ),
       body: Container(
         color: const Color(0xFFEAF6FF),
-        child: ListView(
-          padding: const EdgeInsets.only(top: 16),
-          children: const [
+        child: const Column(
+          children: [
             MenuCard('ox.png', 'Oxygen'),
             MenuCard('co2.png', 'Carbon Dioxide'),
             MenuCard('haze.png', 'Haze'),
